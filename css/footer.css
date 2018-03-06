@@ -1,0 +1,32 @@
+.footer {
+  padding: 35px 0;
+  background-color: #ed3833;
+  width: 100%;
+  height: auto; }
+
+.footer-items, .footer-last {
+  text-align: center;
+  font-size: 12px;
+  padding: 2px 10px;
+  color: #fff;
+  border-right: 1px solid #fff; }
+
+.footer-last {
+  border: 0; }
+
+@media(max-width: 540px) {
+  .footer-link {
+    margin: 10px 0; } }
+.footer-link a {
+  text-decoration: none; }
+  .footer-link a:hover {
+    color: #fff; }
+
+.footer-icons {
+  text-align: right; }
+  .footer-icons i {
+    color: #fff;
+    font-size: 28px;
+    margin-left: 5px; }
+
+/*# sourceMappingURL=footer.css.map */

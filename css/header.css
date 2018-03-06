@@ -1,0 +1,115 @@
+body {
+  background-color: #f2f2f2; }
+
+.header {
+  padding: 35px 0; }
+
+.connection {
+  text-align: right;
+  padding-bottom: 20px; }
+  .connection img {
+    display: inline-block;
+    margin-left: 20px; }
+  .connection p {
+    display: inline-block;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 1px;
+    margin-left: 5px; }
+
+.logo {
+  height: 45px; }
+  .logo img {
+    height: 100%; }
+@media(max-width: 540px) {
+  .logo img {
+    width: 100%; } }
+.button-group {
+  text-align: right; }
+@media(max-width: 540px) {
+  .button-group {
+    text-align: center; } }
+.sign-in {
+  display: inline-block;
+  height: 100%;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  padding: 3px 5px 3px 0; }
+@media(max-width: 540px) {
+  .sign-in {
+    margin-top: 10px; } }
+.button1 {
+  width: 50px;
+  height: 100%;
+  background-color: #f2f2f2;
+  border: 0;
+  border-right: 1px solid #dddddd; }
+
+.shopping-car {
+  margin: 0 auto;
+  width: 30px;
+  height: 30px;
+  border: 2px solid #dddddd;
+  border-radius: 50px; }
+  .shopping-car img {
+    width: 20px;
+    height: 20px; }
+
+.button2 {
+  font-size: 15px;
+  height: 100%;
+  background-color: #f2f2f2;
+  width: 90px;
+  font-weight: bold;
+  border: 0; }
+  .button2 a {
+    color: #000; }
+
+.button3 {
+  background-color: #ed3833;
+  color: #fff;
+  font-size: 15px;
+  border-radius: 10px;
+  height: 100%;
+  width: 160px; }
+
+.guide {
+  width: 100%;
+  background: linear-gradient(#fff, #f7f7f7); }
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 15px; }
+  .content a {
+    text-decoration: none; }
+
+.items, .items-last {
+  color: #000;
+  font-family: Arial Narrow, sans-serif;
+  padding: 5px 20px;
+  font-size: 20px;
+  font-weight: bold;
+  border-right: 1px #efefef solid; }
+
+.items-last {
+  border: 0; }
+
+.searching {
+  padding: 20px;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%); }
+  .searching input {
+    outline: none;
+    width: 100%;
+    height: 30px;
+    padding: 0 40px;
+    border: 1px solid #dedede;
+    border-radius: 30px;
+    background-image: url("../img/search.png");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: 7px 5px; }
+
+/*# sourceMappingURL=header.css.map */
